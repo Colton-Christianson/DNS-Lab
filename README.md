@@ -36,14 +36,11 @@ This section demonstrates how to observe and flush the local DNS cache — usefu
    - Double-click the `mainframe` A-record and update the IP field.
 2. On `Client-VM`, ping `mainframe` — it will still ping the old address.
 3. Observe the DNS cache using:
-   ```powershell
-   `ipconfig /displaydns`
+   ipconfig /displaydns
 4. Flush the DNS cache using:
-   ```powershell
-   `ipconfig /displaydns`
+   ipconfig /displaydns
 5.Observe the changes using:
-   ```powershell
-   `ipconfig /displaydns`
+   ipconfig /displaydns
 6. Now Ping "mainframe" to observe the new address
 
 ---
